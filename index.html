@@ -1,45 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Responsive Cake webpage</title>
-    <!-- Add a link to your css file here -->
-  </head>
-
-  <body>
-    <h1>Neill's Cakes!</h1>
-
-    <img src="images/joshua-hoehne-wnHeb_pRJBo-unsplash.jpg" width="50%" />
-
-    <h2>Menu</h2>
-    <ul>
-      <li>item</li>
-      <li>item</li>
-      <li>item</li>
-    </ul>
-    <h2>Credits</h2>
-    Photo by
-    <a
-      style='background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px'
-      href="https://unsplash.com/@mrthetrain?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
-      target="_blank"
-      rel="noopener noreferrer"
-      title="Download free do whatever you want high-resolution photos from Joshua Hoehne"
-      ><span style="display:inline-block;padding:2px 3px"
-        ><svg
-          xmlns="http://www.w3.org/2000/svg"
-          style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
-          viewBox="0 0 32 32"
-        >
-          <title>unsplash-logo</title>
-          <path
-            d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"
-          ></path></svg></span
-      ><span style="display:inline-block;padding:2px 3px"
-        >Joshua Hoehne</span
-      ></a
-    >
-  </body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Demo Project</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <ul>
+                    <li><i class="fas fa-plus-circle"></i><b> Dr Muhammed's consulting</b></li>
+                    <b> <li><a href="#"> Our Vision </a></li>
+                    <li><a href="#"> Features </a></li>
+                    <li><a href="#"> Our Team </a></li>
+                    <li><a href="#"> Latest News </a></li>
+                    <li><a href="#"> Contact </a></li> </b>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook"></i>
+               </ul>
+            </div>
+            <div class="main-content">
+                Our Vision
+                <h1>Get the best treatment<br/>in Calicut</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br/>Maiores cum adipisci recusandae ad quisquam rerum.</p>
+                <br/>
+                <i class="fas fa-check-circle"></i> Best and Timely Diagnosis <br/><br/>
+                <i class="fas fa-check-circle"></i> Advanced Medical Equipments <br/><br/>
+                <i class="fas fa-check-circle"></i> Experienced Professionals <br/> <br/> <br/>
+                <button class="book-session">Book a session <i class="fas fa-arrow-right"></i></button>
+            </div>
+            <div class="photocard">
+                <div class="tab3">
+                    <h3>Features</h3>
+                    <h1>State of the art treatment</h1>
+                </div>    
+                <div class="features-list">
+                    <div class="card">
+                        <img class="feature-img" src="img_avatar.png" alt="Avatar">
+                        <h2>Robotic Surgery</h2>
+                        </div>
+                    <div class="card">
+                        <img class="feature-img" src="img_avatar.png" alt="Avatar">
+                        <h2>3D Mapping</h2>
+                    </div>
+                    <div class="card">
+                        <img class="feature-img" src="img_avatar.png" alt="Avatar">
+                        <h2>3D Printed organs</h2>
+                    </div>
+                    <div class="card">
+                        <img class="feature-img" src="img_avatar.png" alt="Avatar">
+                        <h2>AI Surgery</h2>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <button class="read-more">Read More <i class="fas fa-arrow-right"></i></button>
+            <br/>
+            <br/>
+            <br/>
+            <div class="video-insertion">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/yfoY53QXEnI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+            <br/>
+            <br/>
+            <div class="team-info">
+                <br/>
+                Our Team
+                <h1>Meet Our People</h1>
+                <div class="photo-section">
+                    <div class="images">
+                        <img src="peacock.jpeg" alt="Feather" class="feather">
+                        <h3>Dr.Aboobacker</h3>
+                        <p>Neurosurgeon</p>
+                        Lorem ipsum dolor sit amet.
+                        <br/>
+                        <button class="option">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    <div class="images">
+                        <img src="peacock.jpeg" alt="Feather" class="feather">
+                        <h3>Dr.Aboobacker</h3>
+                        <p>Neurosurgeon</p>
+                        Lorem ipsum dolor sit amet.
+                        <br/>
+                        <button class="option">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    <div class="images">
+                        <img src="peacock.jpeg" alt="Feather" class="feather">
+                        <h3>Dr.Aboobacker</h3>
+                        <p>Neurosurgeon</p>
+                        Lorem ipsum dolor sit amet.
+                        <br/>
+                        <button class="option">Read More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="news-topics">
+                <h4>Latest News</h4>
+                <h1>Hot Topics</h1>
+                <div class="tab5">
+                    <div class="pictures">
+                        <img src="dhoni.jpg" alt="dhoni" class="photoframe">
+                        <p>03rd August 2021</p>
+                        <p>Dr.Aboobacker and team successfully<br/>done the world's first head implant.</p>
+                        <p>Lorem ipsum dolor sit,<br/>amet consectetur adipisicing elit.</p>
+                        <i class="fas fa-arrow-circle-right"></i>
+                    </div>
+                    <div class="pictures">
+                        <img src="dhoni.jpg" alt="dhoni" class="photoframe">
+                        <p>03rd August 2021</p>
+                        <p>Dr.Aboobacker and team successfully<br/>done the world's first head implant.</p>
+                        <p>Lorem ipsum dolor sit,<br/>amet consectetur adipisicing elit.</p>
+                        <i class="fas fa-arrow-circle-right"></i>
+                    </div>
+                    <div class="pictures">
+                        <img src="dhoni.jpg" alt="dhoni" class="photoframe">
+                        <p>03rd August 2021</p>
+                        <p>Dr.Aboobacker and team successfully<br/>done the world's first head implant.</p>
+                        <p>Lorem ipsum dolor sit,<br/>amet consectetur adipisicing elit.</p>
+                        <i class="fas fa-arrow-circle-right"></i>
+                    </div>
+                    <div class="pictures">
+                        <img src="dhoni.jpg" alt="dhoni" class="photoframe">
+                        <p>03rd August 2021</p>
+                        <p>Dr.Aboobacker and team successfully<br/>done the world's first head implant.</p>
+                        <p>Lorem ipsum dolor sit,<br/>amet consectetur adipisicing elit.</p>
+                        <i class="fas fa-arrow-circle-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <h3>Contact Us</h3>
+                <h1>Get better care</h1>
+                <br/>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo quidem facere,<br/>architecto mollitia ipsam cum est veritatis non nemo, voluptatum animi quibusdam<br/>eum sed, facilis deleniti aut. Cum doloribus iste error? Reprehenderit<br/>illum accusantium provident quibusdam!
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <button class="footer-box">Contact Now <i class="fas fa-arrow-right"></i></button>
+            </div>
+            <footer>
+                <div class="line1">
+                    <ul>
+                        <li>Our Vision</li>
+                        <li>Features</li>
+                        <li>Our Team</li>
+                        <li>Latest News</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>

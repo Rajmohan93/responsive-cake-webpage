@@ -1,1 +1,160 @@
-/*  Add your styling here */
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: #FFFFFF;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    padding-left: 1px;
+}
+.navbar ul{
+    float:inline-start;
+}
+.navbar ul li{
+    display: inline;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 40px;
+}
+.main-content{
+    background-color: #F1F1F1;
+    padding-top: 50px;
+    padding-left: 200px;
+    height: 500px;
+}
+.main-content h1{
+    font-size: 50px;
+}
+.photocard{
+    background-color: white;
+}
+.tab3{
+    align-content: flex-start;
+    padding-left: 200px;
+}
+.tab3 h3{
+    color: #B8B8B8;
+}
+.features-list{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 250px;
+    height: 300px;
+    background-color: #f1f1f1;
+    align-items: center;
+    margin: 20px;
+}
+.feature-img {
+    width: 250px;
+    height: 250px;
+}
+.card h2{
+    text-align: center;
+}
+.book-session {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.read-more {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 200px;
+}
+.video-insertion iframe{
+    width: 1014px;
+    height: 590px;
+    margin-left: 250px;
+}
+.team-info{
+    background-color: #F1F1F1;
+    text-align: center;
+}
+.team-info h1{
+    text-align: center;
+}
+.photo-section{
+    padding-left: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+.feather{
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+}
+.option{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.news-topics{
+    padding-bottom: 30px;
+}
+.news-topics h4{
+    margin-top: 30px;
+    padding-left: 200px;
+}
+.news-topics h1{
+    padding-left: 200px;
+}
+.tab5{
+    padding-left: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 200px;
+}
+.photoframe{
+    width: 230px;
+    height: 230px;
+}
+.footer{
+    background-color: #f1f1f1;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-bottom: 45px;
+}
+.footer-box{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;    
+}
+.line1 li{
+    float: left;
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+}
